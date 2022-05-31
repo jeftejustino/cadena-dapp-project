@@ -172,6 +172,7 @@ function App() {
     getBankName();
     getbankOwnerHandler();
     customerBalanceHandler()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isWalletConnected])
 
   return (
